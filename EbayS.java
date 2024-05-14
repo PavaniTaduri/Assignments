@@ -31,10 +31,10 @@ public class EbayS {
 	    System.out.println("Search for anything");
 	    
 	    
-	    String srch = "asdftryu";;
+	    String srch = "Mouse";;
 			driver.findElement(By.id("gh-ac")).sendKeys(srch + Keys.ENTER);
 			driver.findElement(By.id("gh-btn")).click();
-			System.out.println("asdftryu is searched");
+			System.out.println("Mouse is searched");
 			
 			 try {
 			    	
